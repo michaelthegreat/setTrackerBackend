@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+.build
+coverage
+
+# Serverless directories
+.serverless
+
+*.js
+*.map
+.DS_Store
+
+# IDE config files
+*.idea
+dist/spec/unit/config/userevent.json
+.vscode/
