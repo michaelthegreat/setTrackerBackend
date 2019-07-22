@@ -25,16 +25,6 @@ const schema = makeExecutableSchema(
   }
 );
 
-// const createHandler = async () => {
-
-
-// 	return server.createHandler({
-// 		cors: {
-// 			origin: '*'
-// 		},
-// 	});
-//  };
-
 const server = new ApolloServer({
 	schema,
 	context: async ({event, context}) => ({
